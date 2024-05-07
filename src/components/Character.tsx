@@ -7,7 +7,7 @@ import { useAnimations, useGLTF, useKeyboardControls } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { CuboidCollider, RapierRigidBody, RigidBody } from '@react-three/rapier';
 import React, { useEffect, useRef, useState } from 'react';
-import { Euler, Group, MathUtils, Quaternion, Vector3 } from 'three';
+import { Euler, Group, Quaternion, Vector3 } from 'three';
 import { Controls } from '../App.tsx';
 
 const forward = new Vector3(0, 0, -0.1);
