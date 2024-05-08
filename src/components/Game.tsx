@@ -11,7 +11,7 @@ export const Game = () => {
 				<color attach={'background'} args={['#fff']} />
 				<RigidBody type={'fixed'}>
 					<mesh>
-						<boxGeometry args={[100, 0.5, 100]} />
+						<boxGeometry args={[10, 0.5, 10]} />
 						<meshStandardMaterial color={'lightgreen'} />
 					</mesh>
 				</RigidBody>
